@@ -5,7 +5,7 @@ using Xamarin.Forms.Internals;
 
 namespace XamarinCustomization.Services
 {
-    public interface IDeviceOrientation
+    public interface IDeviceOrientationService
     {
         DeviceOrientation GetOrientation();
     }

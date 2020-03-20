@@ -12,6 +12,7 @@ using Android.Widget;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using XamarinCustomization.Droid.Services;
+using XamarinCustomization.Services;
 
 [assembly: Dependency(typeof(DeviceOrientationService))]
 namespace XamarinCustomization.Droid.Services

@@ -14,7 +14,7 @@ namespace XamarinCustomization.ViewModels
         {
             GetOrientationCommand = new Command(async () =>
             {
-                var deviceOrientation= DependencyService.Get<IDeviceOrientation>().GetOrientation();
+                var deviceOrientation= DependencyService.Get<IDeviceOrientationService>().GetOrientation();
                 await App.Current.MainPage.DisplayAlert("Orientation", deviceOrientation.ToString(), "Ok");
             });
         }

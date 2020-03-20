@@ -8,6 +8,7 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using XamarinCustomization.iOS.Services;
+using XamarinCustomization.Services;
 
 [assembly: Dependency(typeof(DeviceOrientationService))]
 namespace XamarinCustomization.iOS.Services
